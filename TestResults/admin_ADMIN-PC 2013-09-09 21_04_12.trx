@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="96e04d6b-ad6b-4e0d-8899-4c6301641d28" name="admin@ADMIN-PC 2013-09-09 21:04:12" runUser="admin-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="04097415-52e7-4b0e-a29a-4a41a0d38cb7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_ADMIN-PC 2013-09-09 21_04_12" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-09-09T21:04:12.1798402+05:30" queuing="2013-09-09T21:04:13.7429296+05:30" start="2013-09-09T21:04:13.9199398+05:30" finish="2013-09-09T21:04:17.2751317+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\admin\documents\visual studio 2010\projects\webservicescall\webservicescall\bin\debug\webservicescall.dll" id="56f05cb0-c934-251e-78d4-61e9b4a30b4a">
+      <Execution id="1aeb48fd-efa2-401d-87af-aff6f78a471c" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/WebServicesCall/WebServicesCall/bin/Debug/WebServicesCall.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebServicesCall.UnitTest1, WebServicesCall, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="56f05cb0-c934-251e-78d4-61e9b4a30b4a" executionId="1aeb48fd-efa2-401d-87af-aff6f78a471c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1aeb48fd-efa2-401d-87af-aff6f78a471c" testId="56f05cb0-c934-251e-78d4-61e9b4a30b4a" testName="TestMethod1" computerName="ADMIN-PC" duration="00:00:00.9311243" startTime="2013-09-09T21:04:14.0079448+05:30" endTime="2013-09-09T21:04:17.0101165+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aeb48fd-efa2-401d-87af-aff6f78a471c">
+      <Output>
+        <StdOut>OK
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pune",
+               "short_name" : "Pune",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Pune",
+               "short_name" : "Pune",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Maharashtra",
+               "short_name" : "MH",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Pune, Maharashtra, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 18.6346965,
+                  "lng" : 73.9894867
+               },
+               "southwest" : {
+                  "lat" : 18.4136739,
+                  "lng" : 73.73989109999999
+               }
+            },
+            "location" : {
+               "lat" : 18.5204303,
+               "lng" : 73.8567437
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.6346965,
+                  "lng" : 73.9894867
+               },
+               "southwest" : {
+                  "lat" : 18.4136739,
+                  "lng" : 73.73989109999999
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
